@@ -12,6 +12,15 @@ timeit 会对语句循环执行 n 次（由 -n 参数指定）并计算平均值
 
 <br>
 
+在程序中使用：
+```python
+import timeit
+t = timeit.Timer('l = [0,1,2,3,4,5,6,7,8,9]').timeit()
+print(t)
+```
+
+<br>
+
 2. cProfile 模块
 
 示例：
