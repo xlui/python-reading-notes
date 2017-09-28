@@ -25,7 +25,7 @@ def time_fn(fn):
 def tight_loop_slow(iterations):
     result = 0
     for i in range(iterations):
-        result += i
+        result += sin(i)
 
 
 @time_fn
